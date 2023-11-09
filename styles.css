@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 900;
+    margin: 0 0 96px;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+
+
+.section{
+    padding: 50px 5%;
+}
+
+/* Navbar section */
+#navbar-section {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    font-weight: 600;
+    background-color: #87d147;
+}
+
+.logo {
+    height: 3rem;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.a-navbar {
+    font-size: 1.5rem;
+    color: inherit;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.a-navbar:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Header Section */
+
+#header-section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 12px;
+   height: 60vh;
+   background-color: #87d147;
+}
+
+.header-subtitle{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+/* Main Section */
+
+#main-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.country-btn {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 100px 0;
+    width: 50%;
+}
+
+.country-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.a-img {
+    padding: 0;
+    border: none;
+}
+
+.country-img {
+    width: 400px;
+}
+
+/* Footer Section */
+
+#footer-section {
+    text-align: center;
+    font-size: 1rem;
+    margin: 10px;
+    color: white;
+    background-color: grey;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 0;
+}
+
+/* Secondary pages */
+.activity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    height: 70vh;
+}
+
+.activity-img {
+    width: 600px;
+    border-radius: 16px;
+}
+
+.activity-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Contact Page */
+
+.contact-box {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.contact-main {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
